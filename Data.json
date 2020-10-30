@@ -1,0 +1,3955 @@
+{
+  "rasa_nlu_data": {
+	"common_examples": [
+      	{
+       	  "text": "﻿who is the academy chair of design london sept community", 
+       	  "intent": "Championrole_by_community", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the active chapter events officer of a alarma community", 
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "woh is th current chapter executive committee member of neus excellence awards chair community",
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "woh is th latest chapter executive committee officer of neus region rising conference community", 
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who was the current chapter mississippi education officer of a first class viking moving storage community", 
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the current chapter tennessee membership officer of a t chadwick co inc community",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shw me the current chapter tennessee state chair of a t kearney community",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show the committee champion other of abc electric inc of des moines community",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tell me about executive director emea asia pacific of abraham tsoukalidis household community", 
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "past international forum of accor hotels community", 
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the past network past chair of adaptive micro systems community", 
+      	  "intent": "Championrole_by_community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "current steering committee chair of avalchile seguros and pyme network",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "recently elected seminars of chana asdathorn household",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "whats all the detail about covice chair of the chapters and regions committee of investorside",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what network roundtable officer of naor mann household",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tell me the details about network spousal liaison of naresh kumra household",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me details from ypo poland gold community in education chairman",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tel me about chair of the leadership committee of sergio gonzalez ramirezhousehold",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are academy chair of wapahani high school",
+      	  "intent": "Championrole_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me details of design london sept  in  espoo",
+      	  "intent": "community_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "gie me details of a daigger company in  lagos",
+      	  "intent": "community_by_Location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿details of a dalumi diamonds in laren", 
+       	  "intent": "community_by_Location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "details about a r s inc in munro", 
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "pls list out the abc electric inc of des moines in covina",
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "let me know the details of act government in claxton", 
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "sort out the adept global llc in moggill", 
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "view all the flexibly packaging assoc in mableton",
+      	  "intent": "community_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "please list out the james grace household in glenrock",
+      	  "intent": "community_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "memers list from the pen canada community in gladwyne",
+      	  "intent": "community_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of communites in warroad", 
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the communities from w point", 
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show communities from wailuku", 
+      	  "intent": "community_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show the communites from walcott",
+      	  "intent": "community_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "eventa hosted by design london sept",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "eventa hosted by entrepreneurs",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the events by participacoes sa",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all the events hosted by yil isil community",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all the events hosted by ypo edge community",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "new events goona hapen by a royale co community",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "summer events conducted by aaa club alliance",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+        {
+      	  "text": "last event conducted by aaron emelhousehold community",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "girls particiated event hosted by ab svenska shell",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events conducted by abilityfirst",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "last evetns conducted buy acceleration partners llc",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show the evnts conducted by advertising association of pakistan",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events happend by alexander lee household",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "sho the events conducted by advertising association of thailand",
+      	  "intent": "event_by_community",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿events by all india distillers association", 
+       	  "intent": "event_by_community", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "lists of all events conducted by birla institute of technology", 
+      	  "intent": "event_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "party events hosted by gpi re group limited",
+      	  "intent": "event_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the events on november 2018", 
+      	  "intent": "event_by_date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of events on november 2018", 
+      	  "intent": "event_by_date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "eevnts on november 2018",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all the events on november 2018",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the evnt s on november 2018",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+        {
+      	  "text": "show me when is the event happening on december 2018",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "when is the next event happen january 2020",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "when is the next evnt happn january",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can you show all the events on february",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all events on 2017",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of all the events during 2018",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me events on sunday",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+        {
+      	  "text": "show me the upcoming events in august",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me al evnt happening on december 2018",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "event on past january 2019",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "upcoming events on nov",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "details about general michael hayden happen in sep",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list the uae presidents programme authentic leadership scott snook october 2020",
+      	  "intent": "event_by_date",
+      	  "entities": []
+      	},
+        {
+      	  "text": "events in the public theatre",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "evnets in 29 b green avenue vasant kunj",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "evsns in the hong kong jockey club",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "event at lifemoves haven family house",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "evnt at dallas arboretum botanical garden ",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "evenet at winnipeg manitoba canada",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "evenet at the country club woodmead",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+        {
+      	  "text": "what are the events in pereyaslovkhmelnytskyi",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "ht are the events in lower parel",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what upcoming events in jackie cameron school of food and wine",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events that happen in huntsville unit",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "event happened at alice smith secondary schoolequine park",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "when do the event took place at the metropolitan willis tower",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "today events in walt disney studios sony pictures releasing office",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿present events at salon social calle apolonio morales 17", 
+       	  "intent": "event_by_location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of all upcoming template yng nonchapter responsive template dnd 1jul19 at como cuisine", 
+      	  "intent": "event_by_location", 
+      	  "entities": []
+      	},
+        {
+      	  "text": "see upcoming ypooc spousalpartner dine around dinner happened at johannisstrasse 3 berlinmitte",
+      	  "intent": "event_by_location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿check all upcming connected couples stay committed occured at the united nations", 
+       	  "intent": "event_by_location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "find all womens networking luncheon hosted by lauren hitchman occur at hilton hotel durban", 
+      	  "intent": "event_by_location", 
+      	  "entities": []
+      	},
+        {
+      	  "text": "members from deal network community", 
+      	  "intent": "member_by_community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "please diplay the members from keystone bank community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "pls show the members from ypo hyderabad integrated community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "member in university of arts london community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+        {
+      	  "text": "active members from abdulrahman algosaibi household community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all the active current members from adani infrastructure developers private ltd community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who were the membrer from graduate schoolisvevyfu community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "current membrers from icici bank uk limited community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "could i know the life leadershipenglan member",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all members by eugene dupuch law school community",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show all membar from fundacion sinfonia",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+        {
+      	  "text": "all members from mohamed seedat household",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "swho is active members on the zz capital international",
+      	  "intent": "member_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who was the past president of keystone bank",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "wh was the past accounts payable manager of keystone bank",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+	{
+       	  "text": "who is the events planner of seminar", 
+       	  "intent": "title_by_community", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who si the flagship events coordinator of education committee", 
+      	  "intent": "title_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display the all active forum programs resources specialist of forum committee community",
+      	  "intent": "title_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all past senior manager registration services of junior leadership university 1 2016 committee", 
+      	  "intent": "title_by_community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "elected content creation manager of pre-rocky mountain leadership college 2017 committee", 
+      	  "intent": "title_by_community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are the marketing coordinatorcontractor of ypo americas gateway miami gold community",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "may know the hr director of impact capital inc",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "may i know the executive vicepresident from inc conference community",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shown me the information support specialist from something everything committee", 
+      	  "intent": "title_by_community", 
+      	  "entities": []
+      	},
+        {
+      	  "text": "who all are the marketing coordinatorcontractor of ypo americas gateway miami gold community",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "past senior manager stragetic alliances of a capital",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "find out the senior manager administrator relations from ada christian school",
+      	  "intent": "title_by_community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "may i know the human resources director of integrated merchandising solutions ims", 
+      	  "intent": "title_by_community", 
+      	  "entities": []
+      	},
+        {
+      	  "text": "president of wimax global conference community at luna park",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show the executive vicepresident of w j towell co llc community in the place of the lodge at woodloch",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "shw the event production manager of w jacobson household community of hotel das triest", 
+       	  "intent": "title_by_community_by_location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": " show the event finance director of wai pong chan household comunity of the hotel brussels park ballroom", 
+      	  "intent": "title_by_community_by_location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me events service specialist of warrington asset mgt llc community of curitiba",
+      	  "intent": "title_by_community_by_location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show group chief commercial officer of wesley medical center community of don alfonso 1890", 
+      	  "intent": "title_by_community_by_location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "only active business analyst present in test company vbvgplmr updated community at newport harbor hotel", 
+      	  "intent": "title_by_community_by_location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all the top sql database administrator present in talktel sa de cv community at bangkok thailand",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show all top global corporate recruiter present in tarkett wood inc community at zoom call in info email for access",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "top numbers of senior manager administrator relations curently active technical uni of denmark community",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "how many chief governance officer present in synapseindia group community located at rooney hall", 
+      	  "intent": "title_by_community_by_location", 
+      	  "entities": []
+      	},
+        {
+      	  "text": "who are all the research analyst present in syracuse univ community which located at the hutton house",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "view community belongs to the president operations of st giles garden hotel",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show all of the community belongs to the regional family manager in  new jersey institute of technology",
+      	  "intent": "title_by_community_by_location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "senior director family of william wells household community at los angeles gun club", 
+      	  "intent": "title_by_community_by_location", 
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿member at wyckoff", 
+       	  "intent": "Member_by_Location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the member at wyckoff", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all member at wyckoff",
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "is there any member at wyckoff", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the member at wyckoff", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can yu show me member at wyckoff",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "member from ft.thomas",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all members from apapa",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the members at santa domingo", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "can you show me the members at albireh-ranallah", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "evenry member at courbevoie", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me evenry member at kennebunkport",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all members at banksia park",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the members at fisherville",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "memebers from avenutura",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all memebers from caracas piso 12",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all memebers from caracas piso 12",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out memebers from caracas piso 12",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿members from hartwell", 
+       	  "intent": "Member_by_Location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of members from taguig", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list members from taguig",
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show members from taguig", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "member from kota kinabalu", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all member from chaoyang",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of member from chaoyang",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members by mitry-mory",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me members by lost creek", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of members by santa tecla", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "whoa ll are the active members from turin", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "whoa all are the members from boca raton,",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "menbers from hermiston",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me menbers from prince george",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list memevber from ploenchit",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out memevber from lasso",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all memevber from mils",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show memevber from makati central post office",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},{
+       	  "text": "﻿all active memenre from east rutherford", 
+       	  "intent": "Member_by_Location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me all active memenre from islamabad", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "memebers ni lahaina",
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all memebers ni boulogne-billancourt", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all active memenrs in gracita alvarez, san", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all members from coburg north",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all the members by aravnca",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members in philadelphila north region",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "weekend members in buena park ", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "best members by clark this month", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "global level members from freienbach today", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "top members from wierda valley, sandton, jhb",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "active members by seongnam-si last year",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "yougsters members in vila olimpia",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "senior members running in vaud",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "blocked members from caba, buenos aires",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "free members by hendersonville",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "indian members in gold canyon",
+      	  "intent": "Member_by_Location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "superior members running in ramat-gan", 
+       	  "intent": "Member_by_Location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "senior members in sunfish lake", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "middle class members from grand bay",
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "widget members by katonah", 
+      	  "intent": "Member_by_Location", 
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿my communities", 
+       	  "intent": "My_Communities", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my communities", 
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show my communities",
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "mention my communities", 
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are my communities", 
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name my communities",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the my communities",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all my communities",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my communities", 
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "my community", 
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my community", 
+      	  "intent": "My_Communities", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show my community",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "mention my community",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are my community",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name my community",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all my community",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my community",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show all my communities",
+      	  "intent": "My_Communities",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿my all communities", 
+       	  "intent": "My_Communities", 
+       	  "entities": []
+      	},
+	{
+       	  "text": "my events", 
+       	  "intent": "My_Events", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my events", 
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "smention my events",
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what is my events", 
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "name some events", 
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my events",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all my events",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "my event",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me my event", 
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "mention my event", 
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what is my event", 
+      	  "intent": "My_Events", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name some event",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my event",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all my event",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "my all events",
+      	  "intent": "My_Events",
+      	  "entities": []
+      	},
+	{
+       	  "text": "my network events", 
+       	  "intent": "My_Network_Events", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my network events", 
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show my network events",
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "mention my network events", 
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what is my network events", 
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name my network events",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all my network events",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my network events",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "my network event", 
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my network event", 
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show my network event", 
+      	  "intent": "My_Network_Events", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "mention my network event",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what is my network event",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name my network event",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all my network event",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my network event",
+      	  "intent": "My_Network_Events",
+      	  "entities": []
+      	},
+	{
+       	  "text": "my region member", 
+       	  "intent": "My_Region_Member", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my region member", 
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show my region member",
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "mention my region member", 
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what is my region member", 
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name my region member",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all my region member",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my region member",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "my region members", 
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me my region members", 
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show my region members", 
+      	  "intent": "My_Region_Member", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "mention my region members",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what is my region members",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "name my region members",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all my region members",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out my region members",
+      	  "intent": "My_Region_Member",
+      	  "entities": []
+      	},
+	{
+       	  "text": "what are the be a survivor events conducted by design london sept at afghanistan", 
+       	  "intent": "Community_by_Event_by_Location", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are the factory tour reviva events conducted by acumen fund pakistan in cambria", 
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are the supreme court event day 2 held by andrew high school community in willoughby hills",
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "In buggenhout wht ar the listen closer your inner voice has attitude events conducted by autotestcompany nhurlyp updated community", 
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "In cramerview what are the when vacation became vocation finding meaning and purpose in your work with maurice henri social entrepreneur events conducted by autotestcompany oekixwp community", 
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "gie me the mim aa conference held by autotestgraduate schooltejpzal updated community at barranquilla",
+      	  "intent": "Community_by_Event_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me the mba disruptive technology tracks events held by autotestgraduate schoolteuatcj community at barrigada mp",
+      	  "intent": "Community_by_Event_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me the ceo mental health events held by bank hapoalim switzerland ltd community at sdfadsfsddsadsd",
+      	  "intent": "Community_by_Event_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "giv me thee bpo board meeting events held by bank iowa community at sea ranch lakes", 
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of epic high performance driving in your business and on the track lewistown events conducted by brett schmulian household community in aurangabad", 
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "wht knd of college prep seminar events conducted by concordia international university estonia community in quintana roo", 
+      	  "intent": "Community_by_Event_by_Location", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "forum fundamentals training fft in the san francisco bay area events conducted by crcevans pipeline intl community in cologne",
+      	  "intent": "Community_by_Event_by_Location",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "number of ypo gold oc chapter napa couples retreat events held by dean cochran household community in montego bay",
+      	  "intent": "Community_by_Event_by_Location",
+      	  "entities": []
+      	},
+	{
+       	  "text": "may i know the top members in europe region from design london sept community", 
+       	  "intent": "Member_by_Community_by_Region", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "top members in western us region from entrepreneurs community", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "top active members in pacific us region from akron porcelain plastics co community",
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "members in canada region from akron rubberducks community", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "primary members in australia region in automationtestpreparatorysicfoz community", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "primary membrs in north africa region in automationtestpreparatorysodfprwm community",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "active people in pacific us region in brigham holdings community",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the people in canada region in brigham youn university community",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "view all the significant members from mid america us region from james smallhousehold community", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "dispaly all the significant members from northeastern us region from james smith household community", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display all the significant members from northeastern us region from james smith household community", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "influential members from northeastern us region from john megrue household community members",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "influential membes from pacific us region from john meier household community members",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members who are in the north asia region in matt schwartzberg household community",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the members southeast asia region in matt shearerhousehold community",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who joined recently from rina king household community in canada region",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "recent membrs from rina onur sirinoglu household community in southeast us region",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+	{
+       	  "text": "current senior accountant of takapuna", 
+       	  "intent": "Title_by_City", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show the current senior director family of taleigao", 
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display only senior manager stragetic alliances in wisconsin",
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "view only senior ux designer in wyoming", 
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "shw the latest accounts payable manager of rolle", 
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show the latest backoffice solutions director of kirkland",
+      	  "intent": "Title_by_City",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "current senior director forum of tamarama",
+      	  "intent": "Title_by_City",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the membership development manager bonlez",
+      	  "intent": "Title_by_City",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show release manager at sandys", 
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "may i know the research analyst in santee", 
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the event project managercontract at valongo", 
+      	  "intent": "Title_by_City", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list event service specialist at valrico",
+      	  "intent": "Title_by_City",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "active senior manager networks marketing communications libourne",
+      	  "intent": "Title_by_City",
+      	  "entities": []
+      	},
+	{
+       	  "text": "past business analyst guay nabo", 
+       	  "intent": "Member_by_Community_by_Region", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "future senior manager learning design and content in broadbeach", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display events operations director celebration",
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display events planner center city area", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the details research analyst corte madera", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shw ma the details salesforce administrator coto de caza",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have a chief marketing officer stevens point",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "detail of regional events manager in frenchs forest",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show membership specialistcontractor at kawanishishi hyogo", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show network administratorcontractor in kawasakishi kanaga", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "let me know about team lead virgin islands", 
+      	  "intent": "Member_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "about chief governance officer assam",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shall i have events marketing specialist by wolfville",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out event services specialist by assam",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "could you show senior ux designer from highgate",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "could i know th sponsorships alliances director from highland",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "please show event platform analyst from sthyacinthe",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "details of strategic alliances manager from east orleans",
+      	  "intent": "Member_by_Community_by_Region",
+      	  "entities": []
+      	},
+	{
+       	  "text": "who is the president of design london sept during the year 2018", 
+       	  "intent": "Title_by_Community_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who was the regional learning specialist of agnes irwin during the year of 2018", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who was thee regional specialist of agnes irwin school during the year of 2018",
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "active senior director networks governance of ala association of legal administrators during tuesday", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "past member services director of amref flying doctors during aug", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "event accounting manager of baesman group active during the year of 2020",
+      	  "intent": "Title_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show all the senior manager stragetic alliances bbraun medikal from 2016 to 2017",
+      	  "intent": "Title_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "display all the active senior ux designer bbraun medikal turkey from 2020 to 2019",
+      	  "intent": "Title_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "view all the past chief marketing officer bill nesshousehold from 2020 to 2019", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "may i know the past chief networks officer bill networks household from 2020 to 2019", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "know the during the month of july who was the senior manager facilities of buquet distributing company inc", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the during on 01 jul who was the events service specialist of british institute of management",
+      	  "intent": "Title_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list ou the during 01-02-2002 who was the executive assistant of british institute paris",
+      	  "intent": "Title_by_Community_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "plaase show teh vice president general manager of bakery showcase community during the 2018", 
+       	  "intent": "Title_by_Community_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "please show the web print design contractor of bakewise brands inc community during the year of 2018", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "web print designer of bakh design inc community during the year of 2018",
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "in the year of in the year of 2014 who was the event production manager of caine company", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "in the yer of in the year of 2014 who was the president of caio fontana household", 
+      	  "intent": "Title_by_Community_by_Date", 
+      	  "entities": []
+      	},
+	{
+       	  "text": "during may 2019 what are the be a survivor held by president", 
+       	  "intent": "Title_by_Event_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "during may 2019 what are the be a survivor events held by president", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "duing jun 2019 what are the scott rasmussen held by accounts payable manager",
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "during jun 2019 what are the scott rasmussen events held by accounts payable manager", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "which 31-mar-2019 held by day chair thank you and strategy meeting chief executive officer", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "which 31-mar-2019 held by events day chair thank you and strategy meeting chief executive officer",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have the communications manager digital services attended the i wrote that hit during 05-11-2024",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have the communications manager digital services attended the i wrote that hit event during 05-11-2024",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "sjow me the content creation manager attended the breaking through cyber security cyber warfare and the new cold war during 06-11-2024", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the content creation manager attended the breaking through cyber security cyber warfare and the new cold war event during 06-11-2024", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the contract administrator attended the ypo gold fort worth wine event during 07-11-2024", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the contract administrator attended the ypo gold fort worth wine event  event during 07-11-2024",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the founder attended the disguise the past unmask the future event  during oct 2029",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "wh ar thee senior manager executive administration attended the forum fundamentals training during mar 2031", 
+       	  "intent": "Title_by_Event_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who are the senior manager executive administration attended the forum fundamentals training event during mar 2031", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who are the senior manager facilities attended the ypo spouse partners this is the momentto give back during mar 2031",
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "give me networks governance specialist attending the ple driving traffic back to brick and mortar during 2030", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "during the month of may 2019 what are the be a survivor held by president", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "during the month of may 2019 what are the be a survivor events held by president",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "display the month on jun 2019 what are the scott rasmussen held by accounts payable manager",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "display the month on jun 2019 what are the scott rasmussen events held by accounts payable manager",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tell me the next month of 31-mar-2019 held by day chair thank you and strategy meeting chief executive officer", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "tell me the day chair thank you and strategy meeting events during 31-mar-2019 by chief executive officer", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "please give me networks governance specialist attending the ple driving traffic back to brick and mortar during 2030", 
+      	  "intent": "Title_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "please give me networks governance specialist attending the ple driving traffic back to brick and mortar event during 2030",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the contract administrator attended the ypo gold fort worth wine event during 07-11-2024",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the contract administrator attended the ypo gold fort worth wine event event during 07-11-2024",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the founder attended the disguise the past unmask the future during oct 2029",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the founder attended the disguise the past unmask the future event during oct 2029",
+      	  "intent": "Title_by_Event_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "members interested in scaling business from europe region", 
+       	  "intent": "Member_by_Region_by_Interest", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "members interested in miscellaneous from western us region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are the members interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the members interested in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list member interested in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the member interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of member interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the list of member interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all member interested in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all active member interested in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "gold members interested in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the gild members interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the gold members interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+	{
+       	  "text": "list of members interested in scaling business from europe region", 
+       	  "intent": "Member_by_Region_by_Interest", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "members having interest in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "people having interest in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are the members having interest in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "members having interest in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the members who all are interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are interested in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is having interest in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "anyone interested in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are having interest in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of memebre having interest in scaling business from europe region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of members interestes in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of having interest in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all list of member having interest in scaling business from europe region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "people having interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all people having interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are the people having interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "people showing interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "show me the people having interest in insurance in western us region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list of people having interest in insurance in western us region", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all the people having interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all people having interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "view all the people having interest in insurance in western us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "view all the members interested in improving margins in north asia region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members who are textile interested in southeast us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members who are interested in textile interested in southeast us region",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members in europe region having interest in learning as passion",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "members in western us region service volunteering as passion",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the members in europe region having interest in learning",
+      	  "intent": "Member_by_Region_by_Interest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "list out all the members in europe region having interest in learning", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "is there any members in europe region having interest in learning", 
+      	  "intent": "Member_by_Region_by_Interest", 
+      	  "entities": []
+      	},	
+	{
+       	  "text": "show me the mebers based on sports interest", 
+       	  "intent": "Members_by_SpecialInterest", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "list all the mebers based on sports interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are the mebers based on sports interest",
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show all the mebers based on sports interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the mebers based on sports interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of all the mebers based on sports interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who ashow alll members from camping interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show alll members from fitness interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all interested in local service", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who are all having interest in public policy", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show members based on the festivals interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the member based on the abroad interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all member based on the abroad interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+       	  "text": "list of all member based on the abroad interest", 
+       	  "intent": "Members_by_SpecialInterest", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out all member based on the abroad interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show member based on the abroad interest",
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "person who is interested in mountain biking interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "members interested in hockey interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are the members interested in balance (work / life) interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "lis of peoples having interest in vehicle restoration interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "lis of all peoples having interest in empty nest interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the list of who are all interested in book collecting interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out who are all interested in special needs children interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "people having interest on urban exploration interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me people having interest on biathlon interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me member details interested on model aircraft interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "get the members interested in watching television interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "fetch the members interested in water polo interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "could you please show who is interested in paintball interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me who are interested in scrapbooking interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have who are all interested in jigsaw puzzles interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "an you show me who are all interested in aircraft spotting interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list peoples having interest on military service interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the peoples interested on investing interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "could you please who are all showing interest on storytelling interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shall i have members interested in emotional intelligence interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can have persons who is interested in internships interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "peoples interested on home interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "people having interest on worship interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "personal family planning interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "can you show me who are all interested in public speaking interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have who are all interested in hunting interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "show me who are interested in young adult job opportunities interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "could you please show who is interested in mentoring interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+	{
+      	  "text": "fetch the members interested in languages interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "get the members interested in wine & spirits interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "give me member details interested on summer camps interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "people having interest on strategy board games interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out who are all interested in work / life balance interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of peoples having interest in activism interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have persons who are all interested in young adults interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can have person who is interested in do it yourself (diy) interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shall i have members interested in driving interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "could you please who are all showing interest on yoga interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the peoples interested on parent-child interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "list people having interest on memory interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can personal comics interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "an you show me who are all interested in pets interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "ca i have who are all interested in learning interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+	{
+      	  "text": "sho me who are interested in mortgages interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "couldyou please show who is interested in kombucha brewing interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "fetch the members interested in performance interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "get the members interested in metal detecting interest", 
+      	  "intent": "Members_by_SpecialInterest", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me member details interested on philosophy interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "peple having interest on listening to music interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out who are all interested in textile arts interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "lis of peoples having interest in fashion interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have persons who are all interested in family business interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "peoples interested on savings interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "people having interest on watching movies interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+      	  "text": "personal infants interest",
+      	  "intent": "Members_by_SpecialInterest",
+      	  "entities": []
+      	},
+	{
+       	  "text": "who is the business networks council director americas of securities community and expertise from aerospace and aviation", 
+       	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the business networks council director emea and apac of social club community and experts in defense", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the present chapter tennessee forum officer of absa debtor finance pty community and land subdivision",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the present chapter strategic alliances officer from across asset management inc community and experts in recreation facilities golf courses skiing facilities amusement parks", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the active network regional chair central us of administraçao por harvard university community and postal service experts", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the active network regional chair central us of administraçao por harvard university community and postal service",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the active network regional chair east central us of administrace insolvenci city tower vos community and  experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the active network regional chair east central us of administrace insolvenci city tower vos community and",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who was the current technology chair of alpine ontario south community and experts from couriers and messengers", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show the madrid development chair of anna brakenhielm household community and sustainability for growth", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "tell me about special events vice chair of artistic denim mills limited community and specialty trade contractors", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "past chapter ambassador of auckland university nz community and petroleum and petroleum products distribution experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is international relations vice chair of autotestcompany gyg lmyi updated and sales and business development management",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+	{
+       	  "text": "who is international relations vice chair of autotestcompany gyg lmyi updated community and sales and business development management", 
+       	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is international rep vice chair of autotestcompany gykcrmmr and commercial real estate", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is international rep vice chair of autotestcompany gykcrmmr community and commercial real estate",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the current regional spouse forum coordinator of autotestgraduate schoolygedvaf and intelligent apps", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who is the current regional spouse forum coordinator of autotestgraduate schoolygedvaf community and intelligent apps experts", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the current regional spouse forum officer of autotestgraduate schoolygedvaf updated and peer to peer learning experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the current regional spouse forum officer of autotestgraduate schoolygedvaf updated community and peer to peer learning",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "present assistant learning network officer of bayard crossings devlopment corp community and financial management experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the past international relations chair of bisco adhesion dentisry community and commercial real estate experts", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "recently selected forum moderator of cfo of the year awards and retail", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "recently selected forum moderator of cfo of the year awards community and retail experts", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "elected network youth family officer of cherokee equity corp and accommodations",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "elected network youth family officer of cherokee equity corp community and accommodations experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "newly elected regional communications officer in collins foods ltd and computer systems software development",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "newly elected regional communications officer in collins foods ltd community and computer systems software development experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "newly selected membership integr vice chair in cummins intermountain inc and photography",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "newly selected membership integr vice chair in cummins intermountain inc community and photography experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is the chapter boardroom officer of davon inc and computer games",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+	{
+      	  "text": "who is the chapter boardroom officer of davon inc community and computer games experts", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "woh si the regional director family of donnie roberts household and aircraft engines", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "woh si the regional director family of donnie roberts household community and aircraft engines experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are the network wpo liaison of eastern technology fund and audio and video equipment manufacturing",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are the network wpo liaison of eastern technology fund community and audio and video equipment manufacturing experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the chapter ypo liaison of embrace your bump and residential developers",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are the chapter ypo liaison of embrace your bump community and residential developers experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tell me the advisor of ethika investments and administration of housing programs urban planning and community development",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tell me the advisor of ethika investments community and administration of housing programs urban planning and community development experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+	{
+      	  "text": "tell me the ambassador of ethiochicken and e learning experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "tell me network regional chair southern africa of fmifood marketing and data",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+	{
+      	  "text": "tell me network regional chair southern africa of fmifood marketing community and data experts", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "detail about china development chair of frederick higgins household and expertise from industrial engineering", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},	
+	{
+       	  "text": "detail about china development chair of frederick higgins household community and expertise from industrial engineering experts", 
+       	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "tell me th detail abot special interest group chairman of garvin oil company incorporated and delegation", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "tell me the detail about special interest group chairman of garvin oil company incorporated community and delegation experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all the expert from public administration from geoffrey allen household community for network regional chair north asia", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who are the expert from public administration from geoffrey allen household community for network regional chair north asia", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can you show me the customer service industries persons from green environment servic community for regional family vice officer",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "may i know the members belogs to defense developement hans hansen household for regional membership vice officer",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "may i know the members belogs to defense developement hans hansen household community for regional membership vice officer",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me business expertise in legal for network forum moderator in hiawatha economic develop", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me business expertise in legal for network forum moderator in hiawatha economic develop community", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list all the busines exparts from urgent care for network integration officer in illuminating engineering society", 
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all the busines experts from urgent care for network integration officer in illuminating engineering society community",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "james olfson household community for past regional chair and hardware experts",
+      	  "intent": "Championrole_by_BusinessExpertise_by_Community",
+      	  "entities": []
+      	},
+	{
+       	  "text": "john duffy household community for vice chair international chapter development and expert in medical equipment and supplies manufacturing", 
+       	  "intent": "Championrole_by_BusinessExpertise_by_Community", 
+       	  "entities": []
+      	},
+	{
+       	  "text": "show me what are all the be a survivor going to happen on january for academy chair", 
+       	  "intent": "Championrole_by_Event_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me what are all the be a survivor events going to happen on january for academy chair", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the ypo gold fort worth board meeting going to happen on march2019 for chapter new member coordinator",
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the ypo gold fort worth board meeting events going to happen on march2019 for chapter new member coordinator", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the ypo sydney female members lunch going to happen on april2019 for chapter new member orientation officer", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the ypo sydney female members lunch events going to happen on april2019 for chapter new member orientation officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me southern us regional conference and rbm events going to happen on may2019 for chapter new member orientation vice officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the real life ninja on next october2019 for manager business networks",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "ypo palestine dine around event going to happen on september for regional ypo liaison", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "when is the next deal talk series chicago on january for academy chair", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "when is the next deal talk series chicago event on january for academy chair", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "next hunting and fishing conservation network board on coming march2020 for chapter communications officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "next hunting and fishing conservation network board event on coming march2020 for chapter communications officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "display all gcc secrets of longevity optimal health for a positive difference in your life happening on may2019 for committee university chair", 
+       	  "intent": "Championrole_by_Event_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "display all gcc secrets of longevity optimal health for a positive difference in your life event happening on may2019 for committee university chair", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "is there any change making it work event happening on april for reg vchairchap healthdevelopmbrship",
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are all the indepth with exmckinsey boss rajat gupta happening during august2020 for chapter breakfast education officer", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are all the indepth with exmckinsey boss rajat gupta event happening during august2020 for chapter breakfast education officer", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all the creating stars to transform your business boris groysberg event happening during september2020 for chapter breakfast education vice officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me a details about ypo gold chicago presents offtherecord with major general clay hutmacher happened on january for assistant learning network officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "give me a details about ypo gold chicago presents offtherecord with major general clay hutmacher event happened on january for assistant learning network officer",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list lessons from leaders a year as ypo chairman on april2019 for spouse forum cocoordinator", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list lessons from leaders a year as ypo chairman events on april2019 for spouse forum cocoordinator", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "ypo poland opening party events at dallas on december2019 for spouse forum cocoordinator", 
+      	  "intent": "Championrole_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the cuba adventure hosted by network regional chair southeast us and caribbean on november2020",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the cuba adventure events hosted by network regional chair southeast us and caribbean on november2020",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "change ethics family weekend conducted by chapter boardroom officer in the month of june",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "change ethics family weekend events conducted by chapter boardroom officer in the month of june",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "network board champion north asia attended presidential retreat 2016 events on february",
+      	  "intent": "Championrole_by_Event_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "who is the academy chair of design london sept community for january", 
+       	  "intent": "Championrole_by_Community_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "wh is the chapter member engagement officer of academy of fine arts community for during the month of november 2019", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show the network spouse forum coordinator of aivita biomedical community for april2020",
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "tell me about chairman emeritus of almoayyed international group community from october 2019", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display the chairman of the international board of almokremzac community from 01-09-2019", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "is there any event happened for regional learning officer in andrew gumberg household on september",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "is there any event happened for regional learning officer in andrew gumberg household community on september",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all the events happening for past president in anup popat household during december",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all the events happening for past president in anup popat household community during december", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "events happening for chapter yponextgen mentor program champion in association of academic c during the month of september2019", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "events happening for chapter yponextgen mentor program champion in association of academic c community during the month of september2019", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of available events for chair of the glc supervisory committee from autotestcompany x emtx on 04/12/2020",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list of available events for chair of the glc supervisory committee from autotestcompany x emtx community on 04/12/2020",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "show me all the events for membership asst chair hosted by aws weld show on april2020", 
+       	  "intent": "Championrole_by_Community_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me all the events for membership asst chair hosted by aws weld show community on april2020", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "network administrator of bc gold foxtrot forum from this jan 2020",
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "network administrator of bc gold foxtrot forum community from this jan 2020", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the list of dmm pacific forum dup dissolved community completed on january2019 for network regional chair asia", 
+      	  "intent": "Championrole_by_Community_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the eduardo consuegra household community completed on october 2019 for chapter administrator",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "entrevalles community on february and only for chapter social officer",
+      	  "intent": "Championrole_by_Community_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "show me all the events hosted by accendo banco sa community on 01/02/2002", 
+       	  "intent": "Community_by_Event_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me all the events hosted by accent food services community in the month of may", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "evens conduced by adelantos capital in the month of november",
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "events conducted by adelbert marous household community in the month of december", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list al the evens by alistair aboyne household on 01-02-2019", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all the events by alistair blake household  community on september",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events conducued by amer soc for ind securit on next april",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events conducted by amer soc for ind securit community on next april",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the evnts conducted by amwal qatar on may", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the events conducted by amway brazil community in the month of june", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "event telecast by andrew peller ltd community on next november", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "any events hosted by arthur brookfield householdcommunity last september",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "when is the event conducted by assi doman dansk kraftemballage as community last november",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "list the events hosted by association of the us ar community on jul 2019", 
+       	  "intent": "Community_by_Event_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "list the events organised by auto metal co ltd community on last august", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "event conducted by automationtesthigh schoolpcbhnfhn community in last october",
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the events organised by autotestcompany nqkahwch community in last april", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list events organized by autotestcompany nqnyhkwi community in last may", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all the events organized by autotestgraduate schoolnfirnhwmoa updated community in last march",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events organized by autotesthigh schoolyra v sobi community in last november",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the events hosted by autotestuniversitycollegebcmms community in the month of november",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events conducted by babycenter community in the month of july", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the test australian dollars currency event event conducted by bras n things coomunity month of february", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "any lessons learned from fortune 500 ceos event hosted by butler county jvs community in the month of sun", 
+      	  "intent": "Community_by_Event_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "when is the open for business event conducted by ca real estate broker community month of wed",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list the klondike party event conducted by canadian investors relat community in the month of mon",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "in the boardroom with atlanta hawks event telecast by briljent llc community in the month of mar",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "engage with jeddah safari retreat event telecast by brill securities inc community in the month of apr",
+      	  "intent": "Community_by_Event_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "show me all the events hosted by robert shapiro household community in Europe Region", 
+       	  "intent": "Event_by_Community_by_Region", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "events conducted by robert weber household community at Europe Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "events conducted by robert weber household community at Europe Region",
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all events by robins nest childrens community in Pacific US Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "eventa hosted by rocky mountain leadership college in Southeast Asia Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "eventa hosted by rocky mountain leadership college community in Southeast Asia Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events hosted by rocky mountain leadership college committee at Australia region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events hosted by rocky mountain leadership college committee community at Australia region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the events by rocky mountain leadership college in Europe Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the events by rocky mountain leadership college community in Europe Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all the events hosted by roger houben household in Southeast Asia Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all the events hosted by roger houben household community in Southeast Asia Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "new events goona hapen by roger howe household at Europe Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+	{
+       	  "text": "new events gonna happen by roger howe household community at Europe Region", 
+       	  "intent": "Event_by_Community_by_Region", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "new events happened by roger hruby household community at Western US Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "summer events by ron drori household community in Southeast Asia Region",
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "last event conducted by ronaldo nacif household community in Middle East region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "girls participated event hosted by roschman enterprises community in Middle East region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "next event conducted by rostrevor college community at Latin America Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "last events conducted by rotary club of oyster bay community in South Asia Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show the events conducted by royal institute of techology community in Africa Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events happend by rug university gent community at Mid America US Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "evebt coducted by russell wright household community at Pacific US Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "event conducted by russell yeh household community at Canada Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events by ryan gellert household community in Pacific US Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the events by sa san miguel community at New Zealand Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what all the events conducted by sabah hydari community in New Zealand Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all evnts hostt by shipcalm community at Middle East region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events host by st mary of the plains community from South Asia Region region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "lists of al evens conducted by test company hsxlzz community at Canada Region region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "lists of all events conducted by test company htiilp community at Southeast US region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+	{
+      	  "text": "list ot al the events conducted by thomas simmons household community from Canada Region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out all the events conducted by thomas simms household community from Southeast US region", 
+      	  "intent": "Event_by_Community_by_Region", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all evants conducted by womack co inc community at Middle East region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all events conducted by womack company inc community at North Asia Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "happy hour event by banco gerador community from Mid America US Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "chile meeting 2021 by banco gt continental el salvador sa community from Northeastern US Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can you show me all the exponentially changing times events conducted by doing business in sri lanka dissolved community in Caribbean Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all the chapter event family duel events conducted by zywave inc at South Asia Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what are all the ypo valentines day event events conducted by zz capital international community at Mid America US Region",
+      	  "intent": "Event_by_Community_by_Region",
+      	  "entities": []
+      	},
+	{
+       	  "text": "﻿show me the member from succession planning experts", 
+       	  "intent": "Member_by_Business_Expertise", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who alla re the member from supply chain experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all active members from human resources experts",
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "is there any members from talent management experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "can you show me the member from accounting experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all member from executive coaching experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "experts member from education experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "experts from leading teams",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all atha active member from technology experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "members from startups expert", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "membre from financial management experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "member fro financial markets expert",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all member from mobile expert",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+       	  "text": "members belongs to real estate experts", 
+       	  "intent": "Member_by_Business_Expertise", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "all members belongs to global business experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show nee the members belongs to entrepreneurial business models experts",
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me the members belongs to manufacturing experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are the members belongs to computer & technology experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all active members belongs to economy experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "is there any members belongs to accelerators experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list members belongs to corporate communications experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the members belongs to theatre experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "all are the members belongs to chemical distribution experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me all the members belongs to managing uncertainty experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members belongs to transportation & warehousing experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "members from funding experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all experts from project management experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all are experts from intellectual property experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out all experts from industrial automation experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all experts from individual & family services experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show experts from legal services experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "show me all the experts in management of companies & enterprises", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me expert from personal development & coaching", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the experts from law practice",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all the expert from medical / dental & hospital equipment & supplies distribution experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list all the expert from land subdivision & land development",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all the expert from commercial banking experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who all the expert from fruit / vegetable preserving",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "wh al the expert from fabricated metal product manufacturing experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "wh al the expert from think tanks experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "business expertise in real estate technology",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "business expertise in warehousing & storage",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "business expert in hospitality / foodservice  experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "business experts in payroll services experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},	
+	{
+       	  "text": "show me all business expertise from workspaces expert", 
+       	  "intent": "Member_by_Business_Expertise", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all aer the expert from special trade contractors experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all aer the expert from management consulting experts",
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are the expert in cloud computing services experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "who all are the expert in convention centers experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have the members belogs to electronics & appliance stores experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can i have the members belogs to specialty chemicals experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all the expertise in farming experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all the expertise in religious institutions experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me business expertise in public safety experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show me business expertise in law enforcement experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shpw me business expertise in nonresidential building construction experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "exprts in computer training experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+       	  "text": "exprts in facility security experts", 
+       	  "intent": "Member_by_Business_Expertise", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "business expertis in commercial & service industry machinery experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "business expertis in building materials; glass experts",
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "shpw me business expertise in other schools & instruction experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "shpw me business expertise in leather & allied product manufacturing experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all business expertises from postal service experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "all business expertises from coating; engraving; heat treating & allied activities experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shpw me the business expertises from support activities & services for crop production experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "shpw me the business expertises in communications equipment manufacturing experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list business experts from business supplies & equipment stores experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list all the busines exparts from grocery & related products distribution experts", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is social media experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who is knowledge management experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the management scientific & tech consulting services experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all the ethics experts",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "expertise in hotel franchise expert",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "expertise from bio fuel expert",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me all tje expertise from bio fuel expert",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "show expertise from bio fuel expert", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "persons with beer / wine & distilled alcoholic beverage distribution background", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "persons with industrial engineering background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the persons with cosmetics background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the persons with internet / web related services background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all belongs to auto financing & insurance expert person",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all belongs to data management & data processing services expert person",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can you show me the military expert persons",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can you show me the energy storage expert persons",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "show me the persan with educational services background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the persan with spirits production background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "caan i have the youth services expert members", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "caan i have the commercial space expert members", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+	{
+      	  "text": "persona with newspaper background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "persona with auto parts dealers background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+      	  "text": "can you show me the forestry & logging expert person", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "can i have the membrs belogs to fast food / quick service developement", 
+      	  "intent": "Member_by_Business_Expertise", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all the exprtise in aquaculture and related services",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "perona with grain & oilseed milling background",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "whp are all bellongs to communication expert people",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "metalworking machinery experts details",
+      	  "intent": "Member_by_Business_Expertise",
+      	  "entities": []
+      	},
+	{
+       	  "text": "be a survivor event conducted in vecchio sogno restaurante during january", 
+       	  "intent": "Event_by_Location_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "the christmas party event conducted in dk engineering headquarters in the day of saturday", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "gcc key strategies for amazon success building and managing brands on amazon event conducted in perth convention centre on sunday",
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are the upcomng events in casa tua during 01/02/2002", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "what are the upcoming events in schiratos palm beach home during 01 jul", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "events in renaissance denver downtown city center on friday",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show all the events in gymkhana club hockey field on saturday",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what all are the events conducted in event in the month of sunday",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "what all are the events conducted in solana beach in the month of monday", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "show the kentucky derby user pay event events in florence tuscany upcoming monday", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "events in adelaide university medical centre followed by dinner at rigonis upcoming monday", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the cocteleria events from officers mess army headquarters scotland in the month of aug",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "lst out deal talk series montreal events from amtrak train station downtown milwaukee in the month of sep",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "disrupting the system events in tbilisi in the month of 2016", 
+       	  "intent": "Event_by_Location_by_Date", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "al the events in shannon household in the month of 2019", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "display the ypo london board call 110118 board members only events in the place of the ritzcarlton tysons corner from the sunday",
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "dinearounds events in iowa state fairgrounds on january 2020", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list all the an invitation from ubs tomorrows pivotal questions today events in club campestre anapoima on february 2020", 
+      	  "intent": "Event_by_Location_by_Date", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "show me the gcc introduction to car collecting events in bloomington on 2018",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "pls show me the ypo romania chapter back into the future event in moore park on 2018",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "please show me the ypo romania chapter back into the future events in moore park on 2018",
+      	  "intent": "Event_by_Location_by_Date",
+      	  "entities": []
+      	},
+	{
+       	  "text": "who are all the people which belongs to the deal network would attended the boardroom lunch with david tudehope ceo macquarie telecom event", 
+       	  "intent": "Member_by_Community_by_Event", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "wh are all the people belongs to the ypo michigan west chapter would attended the be a survivor event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list the people who belongs to the ypo midamerica would attended the scott rasmussen event",
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the people who belongs to the ypo midamerica would attended the scott rasmussen event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "number of members in ajay agarwalhousehold community who attended unpublished deal deal talk series bahrain event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "number of members in ajay agarwalhousehold who attended unpublished deal deal talk series bahrain event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "display the number of members in ajay arora household who attended ypo gold only presidents lunch 24 event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "display the number of members in ajay arora household community who attended ypo gold only presidents lunch 24 event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "count of membrs in american securities capital partners lp who attended ypo london mayfair board meeting board members only 16th april 2019 event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "count of members in american securities capital partners lp community who attended ypo london mayfair board meeting board members only 16th april 2019 event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "list the members from ge private asset management community who attended ypo nairobi annual retreat getting familiar with the unfamiliar event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "list out the members from ge private asset management community who attended ypo nairobi annual retreat getting familiar with the unfamiliar event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "can you view the members from ge the meatball alumni community who attended skiing network dinner at whistler event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+	{
+       	  "text": "show all the members from jonathan leehousehold community who conducted the todays youth event", 
+       	  "intent": "Member_by_Community_by_Event", 
+       	  "entities": []
+      	}, 
+      	{
+      	  "text": "list out the all the members from jonathan levinhousehold community who conducted the boardroom series digital business transformation the game changer event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "may i knoe the all the members from jonathan levy household who conducted the sell deliver collect event",
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "may i know the all the members from jonathan levy household community who conducted the sell deliver collect event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	}, 
+      	{
+      	  "text": "know all the members from jonathan lewis household who conducted the business fundamentals lessons that never change event", 
+      	  "intent": "Member_by_Community_by_Event", 
+      	  "entities": []
+      	},
+      	{
+      	  "text": "know all the members from jonathan lewis household community who conducted the business fundamentals lessons that never change event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are al the new members from jorge granierhousehold who conducted the forum moderatorleadership fmld training september 2020 event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	},
+      	{
+      	  "text": "who are all the new members from jorge granierhousehold community who conducted the forum moderatorleadership fmld training september 2020 event",
+      	  "intent": "Member_by_Community_by_Event",
+      	  "entities": []
+      	}
+     ]
+   }
+}
